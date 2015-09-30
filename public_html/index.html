@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Materialize</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css.css"/>
+        <link rel="shortcut icon" type="image/png" href="img/sistemasInformacao.png"/>
+
+    </head>
+    <body>
+
+
+        <nav>
+            <div class="nav-wrapper light-blue darken-4">
+                <a href="#" class="brand-logo">Sistemas de Informação</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a onclick="minhaUnidavi()" href="#">Minha Unidavi</a></li>
+                    <li><a href="http://unidavi.edu.br/cursos/">Cursos</a></li>
+                    <li><a onclick="sobre()" href="#">Sobre</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="segundoNav" class="light-blue">
+
+        </div>
+        <div id="navBranco" class="white">
+
+        </div>
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/img_como_saber_as_cores_exatas_de_uma_imagem_12964_300.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>Ideias Movem o Mundo</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/2.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Tudo a um Toque</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/3.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Educação Ecologica</h3>                        
+                    </div>
+                </li>
+                <li>
+                    <img src="img/4.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>Ampla Biblioteca</h3>                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="navBranco" class="white">
+
+        </div>
+
+
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">language</i>Curso</div>
+                <div class="collapsible-body"><p>Por ser uma das profissões que mais oferece oportunidade de trabalho, as perspectivas salariais na região e no País são excelentes. O curso possui quatro laboratórios para desenvolvimento de aplicações em tecnologia de informação e um específico para atividades de instalação e configuração de sistemas servidores e redes.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">perm_identity</i>Profissional</div>
+                <div class="collapsible-body"><p>O Bacharel em Sistemas de Informação da UNIDAVI atua como consultor de tecnologia da informação. Também planeja, projeta, desenvolve, supervisiona e mantém soluções baseadas em software para comércio, indústria e os mais diversificados segmentos na prestação de serviços.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">settings</i>Onde Trabalhar</div>
+                <div class="collapsible-body"><p>A área de atuação abrange consultoria e suporte em tecnologia de informação; desenvolvimento de sistemas corporativos integrados e de soluções para internet e aplicativos móveis; análise de sistemas; administração e auditoria em redes e banco de dados; e consultoria em infraestrutura de redes de computadores.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">loop</i>Seu Futuro é Tecnologico</div>
+                <div class="collapsible-body"><p>Desenvolva soluções em software para modalidades de negócios pela Internet, tablets, smartphones e muito mais.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">vpn_key</i>Mensalidades</div>
+                <div class="collapsible-body"><p>1º semestre de 2016</p></div>
+            </li>
+        </ul>
+
+        <div id="navBranco" class="white">
+
+        </div>
+        
+
+        <div class="row">
+            <div class="col s12">
+                <h5>Depoimentos</h5>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col s4 ">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="col s12">
+                        <img src="img/pessoa1.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        <h6><b>Heisenberg</b></h6>
+                        A área de Tecnologia da Informação nunca foi tão requerida e necessária no mercado de trabalho como nos dias de hoje, porém há uma carência muito grande de profissionais qualificados.
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="col s12">
+                        <img src="img/pessoa2.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        <h6><b>Pablo Escobar</b></h6>
+                        A área de Tecnologia da Informação nunca foi tão requerida e necessária no mercado de trabalho como nos dias de hoje, porém há uma carência muito grande de profissionais qualificados.
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <ul class="collapsible popout" data-collapsible="accordion">
+
+                    <li>
+                        <div id="info" class="collapsible-header active"><i class="material-icons">call</i>Entre em Contato</div>
+                        <div class="collapsible-body"><div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Nome" id="nome" type="text" class="validate">
+                                    <label for="first_name">Nome</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input placeholder="Sobrenome" id="sobrenome" type="text" class="validate">
+                                    <label for="last_name">Sobrenome</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input placeholder="Email" id="email" type="email" class="validate">
+                                    <label for="first_name">Email</label>
+                                </div>     
+
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="texto" class="materialize-textarea"></textarea>
+                                            <label for="textarea1">Mensagem</label>
+                                        </div>
+                                    </div>
+                                </form>
+                                <button class="btn waves-effect waves-light" type="submit" onclick="valida()" name="action">Enviar
+                                    <i class="material-icons right">send</i>
+                                </button>
+
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div id="info" class="collapsible-header"><i class="material-icons">view_module</i>Coordenacao</div>
+                        <div class="collapsible-body"><p>< M.e Fernando Andrade Bastos >
+                                (47) 3531-6096
+                                fbastos@unidavi.edu.br
+                                http://lattes.cnpq.br/8854684844938218</p></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div id="navBranco"></div>
+
+
+       
+        
+         <div class="parallax-container">
+             <div class="parallax"><img src="img/widescreen_dreamy_world_9th_by_grafixeye.jpg">
+             </div>
+        </div>
+
+
+
+
+        <footer class="page-footer light-blue darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contatos</h5>
+                        <p class="grey-text text-lighten-4">
+                            Rua Dr. Guilherme Gemballa, 13
+
+                            Jardim América - CEP: 89160-932
+
+                            Rio do Sul - Santa Catarina 
+
+                            Fone: (47) 3531-6000
+
+                            Fax: (47) 3531-6001
+
+                            E-mail: unidavi@unidavi.edu.br
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Secretaria Academica</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Pos Graduacao</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Noticias</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Docente</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2015 Mayer Corporation.
+
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Modal Structure -->
+        <div id="minhaUnidavi" class="modal">
+            <div class="modal-content">
+                <h6>Login</h6><br>
+
+                <div class="input-field col s6">
+                    <input placeholder="Usuario" id="user" type="text" class="validate">
+                    <label for="Usuario">Usuario</label>
+                </div>
+                <div class="input-field col s6">
+                    <input  placeholder="Usuario" type="password" id="pass" class="validate">
+                    <label for="Senha">Senha</label>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn waves-effect waves-light" type="submit" name="action" onclick="validaUsuario()">Entrar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Modal Sobre -->
+        <div id="sobre" class="modal">
+            <div class="modal-content">
+                <h6><b>Sobre</b></h6><br>
+
+                Todos diretitos reservados - 2015
+                V 0.1
+
+
+            </div>
+            <div class="modal-footer">               
+                
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="JS.js"></script>
+
+
+    </body>
+</html>

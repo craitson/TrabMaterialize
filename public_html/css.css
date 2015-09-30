@@ -1,0 +1,17 @@
+.nav-wrapper{
+    background: #3F5D7D;
+    color: white;
+}
+#segundoNav{
+    background: #008AB8;
+    height: 8px;
+}
+#navBranco{
+    height: 60px;
+}
+#info{
+    background: #A3E496;
+}
+ .parallax-container {
+      height: 500px;
+ }
